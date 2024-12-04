@@ -57,3 +57,9 @@ if st.button("Generate Code"):
         st.code(generated_code, language="python")
     else:
         st.error("Please provide a valid description.")
+
+st.checkbox('Check me out')
+st.time_input('Time entry')
+>>> tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
+>>> tab1.write("this is tab 1")
+>>> tab2.write("this is tab 2")
