@@ -60,6 +60,4 @@ if st.button("Generate Code"):
 
 st.checkbox('Check me out')
 st.time_input('Time entry')
->>> tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
->>> tab1.write("this is tab 1")
->>> tab2.write("this is tab 2")
+
