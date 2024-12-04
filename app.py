@@ -63,10 +63,10 @@ st.time_input('Time entry')
 st.metric(label="Temp", value="273 K", delta="1.2 K")
 
 # Insert a chat message container.
->>> with st.chat_message("user"):
->>>    st.write("Hello 👋")
->>>    st.line_chart(np.random.randn(30, 3))
+with st.chat_message("user"):
+    st.write("Hello 👋")
+    st.line_chart(np.random.randn(30, 3))
 
 # Display a chat input widget.
->>> st.chat_input("Say something")
+st.chat_input("Say something")
 
